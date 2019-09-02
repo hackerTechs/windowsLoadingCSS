@@ -1,0 +1,183 @@
+       *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            background: #0c5e85;
+            overflow: hidden;
+        }
+        div{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        div span{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            height: 15px;
+            width: 15px;
+            background: #fff;
+            border-radius: 50%;
+        }
+        div span:nth-child(1){
+            margin-left: -810px;
+            animation: anim1 5s infinite linear;           
+        }
+        div span:nth-child(2){
+            margin-left: -810px;
+            animation: anim2 5s infinite linear;           
+        }
+        div span:nth-child(3){
+            margin-left: -810px;
+            animation: anim3 5s infinite linear;           
+        }
+        div span:nth-child(4){
+            margin-left: -810px;
+            animation: anim4 5s infinite linear;           
+        }
+        @keyframes anim1 {
+            0%{
+                margin-left: -810px;
+            }
+            10%{
+                margin-left: -810px;
+            }
+            20%{
+                margin-left: -810px;
+            }
+            30%{
+                margin-left: -810px;
+            }
+            40%{
+                margin-left: -400px;
+            }
+            50%{
+                margin-left: 0px;
+            }
+            60%{
+                margin-left: 0px;
+            }
+            70%{
+                margin-left: 0px;
+            }
+            80%{
+                margin-left: 0px;
+            }
+            90%{
+                margin-left: 400px;
+            }
+            100%{
+                margin-left: 810px;
+            }
+        }
+        @keyframes anim2 {
+            0%{
+                margin-left: -810px;
+            }
+            10%{
+                margin-left: -810px;
+            }
+            20%{
+                margin-left: -810px;
+            }
+            30%{
+                margin-left: -400px;
+            }
+            40%{
+                margin-left: 30px;
+            }
+            50%{
+                margin-left: 30px;
+            }
+            60%{
+                margin-left: 30px;
+            }
+            70%{
+                margin-left: 30px;
+            }
+            80%{
+                margin-left: 400px;
+            }
+            90%{
+                margin-left: 810px;
+            }
+            100%{
+                margin-left: 810px;
+            }
+        }
+        @keyframes anim3 {
+            0%{
+                margin-left: -810px;
+            }
+            10%{
+                margin-left: -810px;
+            }
+            20%{
+                margin-left: -400px;
+            }
+            30%{
+                margin-left: 60px;
+            }
+            40%{
+                margin-left: 60px;
+            }
+            50%{
+                margin-left: 60px;
+            }
+            60%{
+                margin-left: 60px;
+            }
+            70%{
+                margin-left: 400px;
+            }
+            80%{
+                margin-left: 810px;
+            }
+            90%{
+                margin-left: 810px;
+            }
+            100%{
+                margin-left: 810px;
+            }
+        }
+        @keyframes anim4 {
+            0%{
+                margin-left: -810px;
+            }
+            10%{
+                margin-left: -400px;
+            }
+            20%{
+                margin-left: 90px;
+            }
+            30%{
+                margin-left: 90px;
+            }
+            40%{
+                margin-left: 90px;
+            }
+            50%{
+                margin-left: 90px;
+            }
+            60%{
+                margin-left: 400px;
+            }
+            70%{
+                margin-left: 810px;
+            }
+            80%{
+                margin-left: 810px;
+            }
+            90%{
+                margin-left: 810px;
+            }
+            100%{
+                margin-left: 810px;
+            }
+        }
